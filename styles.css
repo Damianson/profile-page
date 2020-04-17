@@ -220,16 +220,23 @@ footer {
     .right {
         float: none;
     }
-    input {
-        width: 100%;
-    }
     textarea {
-        width: 100%;
         margin: 10px 0px;
     }
     .flex-container {
         flex-direction: column;
-        justify-content: none;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .sub-button {
+        margin: 10px 0px;
+    }
+    .data {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
