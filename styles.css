@@ -202,6 +202,27 @@ footer {
     color: #00BCF2;
 }
 
+#myBtn {
+    display: none;  /*Hidden by default */
+    position: fixed; 
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; /* Remove outline */
+    background-color: white; 
+    color: black; 
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+    padding: 15px; 
+    border-radius: 50%;
+    font-size: 18px; /* Increase font size */
+}
+
+
 @media screen and (max-width: 600px) {
     .nav a:not(:first-child) {display: none;}
     .nav a.icon {
@@ -322,3 +343,4 @@ footer {
         font-size: 26px;
     }
 }
+
