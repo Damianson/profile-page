@@ -270,7 +270,7 @@ footer {
 @media screen and (max-width: 600px) {
     .nav.responsive {position: relative;}
     .nav.responsive a.icon {
-      position: absolute;
+      position: ;
       top: 0;
       right: 0;
     }

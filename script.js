@@ -41,6 +41,8 @@ let c = document.getElementsByTagName("textarea")[0];
 let d = document.getElementsByTagName("button")[1];
 let m = document.getElementsByTagName("button")[0];
 
+let ham = document.getElementById("hamburg");
+
 
 function topFunction() {
     sym = sym + 1;
@@ -106,6 +108,12 @@ function topFunction() {
         d.style["border"] = "none";
         d.style["background"] = "linear-gradient(90deg, rgba(98,189,252,1) 0%, rgba(115,165,253,1) 55%, rgba(132,144,255,1) 100%)";
         d.style["border"] = "none";
+    }
+
+    if (sym % 2 == 0) {
+        ham.style["color"] = "white";
+    } else {
+        c.style["color"] = "white";
     }
 
 }
